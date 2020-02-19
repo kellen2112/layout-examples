@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+   
+
+}
+
+body {
+    min-height: 100vh;
+    margin: 0px;
+
+
+}
+
+#header {
+    
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#what-we-do {
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: Center;
+
+}
+#our-customers {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#testimonials {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#pricing {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#price-plan {
+   display: flex;
+    height: 400px;
+    width: 975px;
+}
+#price-buy {
+    display: flex;
+    height: 185px;
+    width: 975px;
+    margin-left: 55px;
+}
+
+.plan{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: url(https://enlightenedrogue.com/wp-content/uploads/2015/06/Dino-brain.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    border: 15px solid #efefef;
+    border-style: ridge;
+    margin: 80px;
+    padding: 10px;
+    height: 385px;
+    
+}
+.plan2{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: url(https://yt3.ggpht.com/a/AGF-l79iD-pJLcRP_LDKdIlY_lUFHZlBslVFHMPuJQ=s900-c-k-c0xffffffff-no-rj-mo);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    border: 15px solid #efefef;
+    border-style: ridge;
+    margin: 80px;
+    padding: 10px;
+    height: 385px;
+
+    
+}
+.plan3{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: url(https://displate.com/avatars/2018-03-16/1fd0f252eea7e4561bb47273bd19277e.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    border: 15px solid #efefef;
+    border-style: ridge;
+    margin: 80px;
+    padding: 10px;
+    height: 385px;
+    
+}
+
+.plan > .plan-name {
+    text-decoration: underline;
+    background-color: #efefef;
+    font-size: 40px;
+    color: rgb(51, 20, 92);
+    margin-top: 4px;
+    display:flex;
+    align-items: center;
+}
+
+.plan > .price-amount {
+    
+    
+    font-size: 50px;
+    color: rgb(51, 20, 92);
+    margin-bottom: 80px;
+}
+.plan2 > .plan-name {
+    text-decoration: underline;
+    background-color: #efefef;
+    font-size: 40px;
+    color: rgb(51, 20, 92);
+    margin-top: 4px;
+    display:flex;
+    align-items: center;
+}
+
+.plan2 > .price-amount {
+    font-size: 50px;
+    color: rgb(51, 20, 92);
+    margin-bottom: 80px;
+    
+}
+.plan3 > .plan-name {
+    text-decoration: underline;
+    background-color: #efefef;
+    font-size: 40px;
+    color: rgb(51, 20, 92);
+    margin-top: 4px;
+    display:flex;
+    align-items: center;
+}
+
+.plan3 > .price-amount {
+    font-size: 50px;
+    color: rgb(51, 20, 92);
+    margin-bottom: 80px;
+    
+}
+
+.buy {
+    color: rgb(51, 20, 92);
+    border: 2px solid rgb(51, 20, 92);
+    border-radius: 25%;
+    margin: 80px;
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+.buy:hover {
+    background-color: rgb(51, 20, 92);
+    color:white;
+    cursor: grab;
+
+}
+
+.page-section {
+    min-height: 60vh;
+    display: flex;  
+}
+
+.page-section:nth-child(even){
+    background-color: #ccc;
+}
+
+.card {
+    display: flex;
+    border: 2px solid #efefef;
+    margin: 8px;
+    padding: 8px;
+
+}
+
+.card > img {
+    max-height: 125px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    max-height: 95px;
+    margin-right: 15px;
+
+}
+ footer {
+    color: rgb(51, 20, 92)
+ }
+
